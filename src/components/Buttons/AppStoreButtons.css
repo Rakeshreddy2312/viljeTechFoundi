@@ -1,0 +1,68 @@
+.app-store-button {
+  width: fit-content;
+  cursor: pointer;
+}
+.button-conent {
+  border: 2px solid white;
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  padding: 16px 58px;
+  justify-content: center;
+}
+.store-details {
+  padding-left: 24px;
+}
+.store-details p {
+  font-family: "Euclid-Light";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(236, 230, 226, 0.72);
+}
+.store-details h4 {
+  font-family: "Euclid-Light";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 30px;
+  color: #ece6e2;
+}
+@media only screen and (max-width: 428px) {
+  .button-conent {
+    padding: 16px 24px;
+  }
+  .submit-btn {
+    right: 2%;
+  }
+  .submit-btn {
+    width: 84px;
+  }
+  .app-store-button {
+    width: 90%;
+    margin: auto;
+  }
+  .store-icons {
+    padding: 6% 6% 0%;
+  }
+  .app-store-button {
+    margin: auto;
+    padding: 3%;
+  }
+  .store-details h4 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .store-details p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .store-logo img {
+    width: 50px;
+    height: 50px;
+  }
+}
+/* @media only screen and (min-width: 414px) and (max-width: 768px) {
+} */

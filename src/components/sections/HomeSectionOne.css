@@ -1,0 +1,90 @@
+.work-section {
+  padding: 64px 54px;
+  text-align: center;
+  background-color: #ffffffd6;
+}
+.desc-blck {
+  margin: 0 auto;
+}
+
+.work-section h2 {
+  font-family: "Euclid Circular B";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 51px;
+  color: #231f20;
+}
+.work-section p {
+  color: rgba(35, 31, 32, 0.72);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+.work-section-content {
+  margin-top: 24px;
+  padding: 52px 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.content-left,
+.content-right {
+  flex: 40%;
+}
+.content-left div,
+.content-right div {
+  height: 360px;
+}
+.work-subblck {
+  margin: 42px 24px;
+}
+.desc-blck {
+  text-align: start;
+  height: 360px;
+  width: 60%;
+  margin: 42px 0px 0px 24px;
+
+  /* padding: 24px 42px; */
+}
+.desc-blck h4 {
+  font-family: "Euclid Circular B";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 24px;
+  color: #231f20;
+}
+.desc-blck p {
+  font-family: "Euclid Circular B";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(35, 31, 32, 0.72);
+}
+.content-middle {
+  position: relative;
+}
+.line {
+  height: 100%;
+}
+.line img {
+  height: 68%;
+}
+.num01 {
+  position: absolute;
+  top: -5px;
+  right: -17px;
+}
+.num02 {
+  position: absolute;
+  top: 36%;
+  right: -17px;
+}
+.num03 {
+  position: absolute;
+  top: 67.5%;
+  right: -17px;
+}

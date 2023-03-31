@@ -1,0 +1,111 @@
+.header {
+  background-color: #0a0a0af2;
+  background-image: url("../../assets/image/Mask\ group.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 46%;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  color: #fff;
+}
+.head-left-blck {
+  padding: 4% 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainsite-link span {
+  margin-right: 12px;
+  border-bottom: 2px solid #f7b251;
+  color: #f7b251;
+  padding-bottom: 4px;
+}
+.mainsite-link svg {
+  font-size: 24px;
+  color: #f7b251;
+}
+.logo {
+  display: flex;
+  cursor: pointer;
+  width: fit-content;
+}
+.logoname {
+  padding-left: 16px;
+  font-size: 28px;
+  font-family: "Euclid-Medium";
+  font-weight: 500;
+  line-height: 36px !important;
+  width: fit-content;
+}
+.head-content p,
+.head-content p span {
+  width: 37%;
+  bottom: 91.34%;
+  font-family: "Euclid-Medium";
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 51px;
+  color: #ece6e2;
+}
+.know-more {
+  cursor: pointer;
+  width: fit-content;
+  margin-top: 124px;
+  font-family: "Euclid Circular B";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration-line: underline;
+  color: rgba(236, 230, 226, 0.72);
+}
+.head-right-blck {
+  flex: 50%;
+}
+.header-bottom {
+  display: flex;
+  align-items: center;
+}
+.header-bottom span {
+  padding-right: 12px;
+}
+@media only screen and (max-width: 768px) {
+  .header {
+    background-size: 65%;
+    background-position: right bottom;
+  }
+}
+@media only screen and (max-width: 428px) {
+  .head-left-blck {
+    width: 100%;
+    padding: 8%;
+    height: 50%;
+  }
+  .logo img {
+    width: 26px;
+  }
+  .logo p {
+    font-size: 20px;
+  }
+  .header {
+    height: 100vh;
+    background-size: 80%;
+    background-position: center bottom;
+  }
+  .mainsite-link span,
+  .head-content p span {
+    display: none;
+  }
+  .head-content p {
+    width: 100%;
+    line-height: 36px;
+    font-size: 28px;
+  }
+}
