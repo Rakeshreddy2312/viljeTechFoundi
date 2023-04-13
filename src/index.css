@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 @font-face {
   font-family: "Euclid-Light";
   src: url("./assets/fonts/Euclid\ Circular\ B\ Light.ttf");
